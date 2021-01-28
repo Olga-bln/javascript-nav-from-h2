@@ -8,7 +8,7 @@
     const h2 = $$('h2');
     const navUl = $('#tocLost');
 
-    //Aufgabe1    
+     
 
     const showNavOnClick = () => {
 
@@ -35,14 +35,14 @@
         navButton.style.wordSpacing = '10px';
     };
 
-    //Aufrufe zu Aufgabe 1
+   
 
     showNavOnClick();
     hideNavOnClick();
 
-    //Aufgabe 2
+    
 
-    //Funktion, um die h2-Einträge unvertauschbar zu machen
+    
     function setId(h2entry, index) {
         h2entry.setAttribute("id", index);
     }
@@ -62,7 +62,7 @@
 
     };
 
-    //Aufrufe zu Aufgabe zwei
+    
     const h2Ids = h2.forEach(setId);
 
     const navUlBuild = h2.forEach(makeTocEntry);
