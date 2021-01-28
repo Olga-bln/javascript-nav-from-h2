@@ -1,0 +1,115 @@
+/*Imports*/
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Long+Cang&family=Open+Sans:wght@300&display=swap');
+
+* {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #D9D7D7;
+    font-family: 'Open Sans', sans-serif;
+    color: #695b4f;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+input[type=button] {
+    position: absolute;
+    word-spacing: 10px;
+    top: 0;
+    right: 0;
+    border: none;
+    background-color: none;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-family: 'Abril Fatface', cursive;
+    color: #BFAB49;
+    font-size: 2rem;
+    transition: 0.67s;
+    background-color: #8C7B6C;
+    border: 2px dashed #695b4f;
+}
+
+
+
+main {
+    transition: 0.67s;
+    padding: 20px;
+    width: 95vw;
+
+}
+
+h1 {
+    color: #010D00;
+    text-align: center;
+    padding: 2rem 0 0 0;
+    text-transform: uppercase;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 5rem;
+}
+
+h3 {
+    font-family: 'Long Cang', cursive;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: -2rem;
+    padding-bottom: 5rem;
+}
+
+h2 {
+    padding: 0.90rem 0;
+    color: #BFAB49;
+
+    text-transform: uppercase;
+    font-family: 'Abril Fatface', cursive;
+    word-spacing: 5px;
+}
+
+p {
+    line-height: 1.65rem;
+    font-size: 1.25rem;
+    padding-bottom: 30px;
+}
+
+aside {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    top: 0;
+    overflow-x: hidden;
+    transition: 0.67s;
+    right: 0;
+    background-color: #8C7B6C;
+}
+
+aside ul {
+    margin-top: 100px;
+
+}
+
+aside ul li,
+aside ul li a {
+
+    padding: 15px 0;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #695b4f;
+    text-decoration: none;
+    transition: 0.87s;
+}
+
+footer {
+    height: 70px;
+    text-align: center;
+    background-color: #010D00;
+    padding: 15px 0;
+}
+
+footer a:link {
+    color: #BFADA3;
+
+}
