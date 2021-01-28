@@ -2,6 +2,6 @@
 
 This is my version of a javascript-made Navigation-List with h2-entries from html-body.
 
-I hope you like my styling for deskotop, too.
+I hope you like my styling for desktop, too.
 
 Cheers, Olga
